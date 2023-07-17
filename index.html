@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recipe Builder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  </head>
+  <style>
+    nav{
+      background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    }
+    #jumbo{
+      background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+
+    }
+    .container{
+      background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+
+height: 185px;
+width: 100%;
+    }
+    footer {
+        max-height: 40vh;
+        background-color: rgb(18, 18, 62);
+        color: white;
+        padding: 25px;
+      }
+      .social-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 60px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+
+      .fa:hover {
+        opacity: 0.7;
+      }
+
+      .fa-facebook {
+        background: #3b5998;
+        color: white;
+      }
+
+      .fa-twitter {
+        background: #55acee;
+        color: white;
+      }
+
+      .fa-google {
+        background: #dd4b39;
+        color: white;
+      }
+
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+      }
+
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Recipe Finder</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+             
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="p-5 mb-4 bg-body-tertiary rounded-3" id="jumbo">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">Welcome To Recipe Finder App</h1>
+          <p class="col-md-8 fs-4">A recipe is a set of instructions that describes how to prepare or make something, especially a dish of prepared food. A sub-recipe or subrecipe is a recipe for an ingredient that will be called for in the instructions for the main recipe. </p>
+          <button class="btn btn-primary btn-lg" type="button"><a href="https://en.wikipedia.org/wiki/Recipe" style="color: white;"> Visit For More Information</a></button>
+        </div>
+      </div>
+
+      <div class="container" style="display: flex; justify-content: center; align-items: center; gap: 30px;">
+        <input type="text" style="height: 80px; width: 300px;" id="search-field">
+        <button type="submit" style="height: 55px; width: 120px;" id="btn">Submit</button>
+      </div>
+     <div class="row" id="cardcontainer" style="display: flex; justify-content: center; align-items: center; gap: 30px; margin-top: 40px; background-color: #FBAB7E;
+     background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+     ">
+       
+          </div>
+        
+          <footer>
+            <p style="text-align: center">
+              CopyRight &copy; recipefinderapp.com || All Rights Reserved
+            </p>
+            <br />
+            <div class="social-links">
+              <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+              <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+              <a href="https://www.google.com" class="fa fa-google"></a>
+              <a href="https://www.linkedin.com" class="fa fa-linkedin"></a>
+              <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+              <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+            </div>
+          </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="script1.js"></script>
+  </body>
+</html>
